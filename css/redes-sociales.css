@@ -1,0 +1,17 @@
+.fb-icon, .tw-icon {
+  background-color: #a5a5a5;
+	border-radius: 5px;
+  color: green;
+}
+
+.fb-icon:hover {	
+  background-color: #476de3;
+  fill: white;
+	transition: .5s;
+}
+
+.tw-icon:hover {	
+  background-color: #1d9bf0;
+  fill: white;
+	transition: .5s;
+}

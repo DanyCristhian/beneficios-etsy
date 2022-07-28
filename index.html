@@ -1,0 +1,1499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Daniel V, Monica R, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.88.1">
+	<title>Etsy Artesanía</title>
+	<!-- jQuery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- Gallery Mansory CSS -->
+	<link href="css/masonry.css" rel="stylesheet">
+	<!-- Fancybox CSS -->
+	<link href="css/fancybox.min.css" rel="stylesheet">
+	<!-- Calculadora CSS -->
+	<link href="css/calculadora.css" rel="stylesheet">
+	<!-- Redes sociales CSS -->
+	<link href="css/redes-sociales.css" rel="stylesheet">
+	<!-- Navbar CSS -->
+	<link href="css/navbar.css" rel="stylesheet">
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- LOADING FONTS AND ICONS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400%7CZilla+Slab:300%2C700&display=swap" rel="stylesheet"
+		property="stylesheet" media="all" type="text/css">
+
+
+	<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+	<!-- REVOLUTION STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="css/rs6.css">
+	<!-- REVOLUTION LAYERS STYLES -->
+
+	<!-- SLICK DESCRUBRE MÉXICO-->
+	<script type="text/javascript" src="js/slick/slick/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/slick/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="js/slick/slick/slick-theme.css" />
+
+	<!-- REVOLUTION JS FILES -->
+
+
+	<script>
+		window.RS_MODULES = window.RS_MODULES || {};
+		window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+		window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+		window.RS_MODULES.defered = true;
+		window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+		window.RS_MODULES.type = 'compiled';
+	</script>
+	<script src="js/rbtools.min.js"></script>
+	<script src="js/rs6.min.js"></script>
+	<!-- Masonry -->
+	<script src="js/masonry.pkgd.4.2.2.min.js"></script>
+	<!-- imagesloaded JS -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<!-- Fancybox JS -->
+	<script src="js/fancybox.min.js"></script>
+
+	<script>function setREVStartSize(e) {
+			//window.requestAnimationFrame(function() {
+			window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+			window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+			try {
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+				e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+				if (e.layout === "fullscreen" || e.l === "fullscreen")
+					newh = Math.max(e.mh, window.RSIH);
+				else {
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+					e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+					var nl = new Array(e.rl.length),
+						ix = 0,
+						sl;
+					e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+					for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+					sl = nl[0];
+					for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+					var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+					newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+				}
+				var el = document.getElementById(e.c);
+				if (el !== null && el) el.style.height = newh + "px";
+				el = document.getElementById(e.c + "_wrapper");
+				if (el !== null && el) {
+					el.style.height = newh + "px";
+					el.style.display = "block";
+				}
+			} catch (e) {
+				console.log("Failure at Presize of Slider:" + e)
+			}
+			//});
+		};</script>
+
+
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+		.slick-track {
+			display: flex !important;
+		}
+
+		.descubremexico .card {
+			height: auto;
+			margin-right: 1rem;
+		}
+        .btnartesania{
+            bottom: 10px; position: fixed;
+        }
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<nav id="navbar-id" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container-fluid">
+				<a id="etsy-text-navbar-id" class="navbar-brand">
+					<h5 class="m-0">Etsy</h5>
+				</a>
+				<button id="collapse-navbar-movil" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#pasos">¿Cómo funciona?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-2">Artesanos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#galeria-artesanias">Artesanías</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#descubre-mexico">Descubre México</a>
+						</li>
+					</ul>
+					<div class="text-center">
+						<button id="register-button-id" class="btn my-2 mx-1 my-sm-0" type="submit">Registrar</button>
+						<button id="login-button-id" class="btn my-2 mx-1 my-sm-0" type="submit">Entrar</button>
+					</div>
+
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+
+		<div>
+			<!-- START etzy REVOLUTION SLIDER 6.5.12 -->
+			<p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="home_wrapper" data-alias="etzyslider" data-source="gallery"
+				style="visibility:hidden;background:#e5681c;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="home" style="" data-version="6.5.12">
+					<rs-slides>
+						<rs-slide style="position: absolute;" data-key="rs-3" data-title="Construction" data-in="o:0;"
+							data-out="a:false;">
+							<img src="assets/transparent.png" alt="Construction" class="rev-slidebg tp-rs-img" data-bg="c:#f1641e;"
+								data-parallax="off" data-no-retina>
+							<!--
+							-->
+							<rs-layer id="slider-2-slide-3-layer-0" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:542px,542px,542px,193px;y:b;yo:-3px,-3px,-3px,304px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;" data-dim="w:600px,600px,600px,561px;h:600px,600px,600px,561px;"
+								data-basealign="slide" data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:8;"><img src="assets/mundo.png" alt=""
+									class="tp-rs-img" width="800" height="800" data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-3-layer-1" data-type="text" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,18px;y:m;yo:-150px,-150px,-150px,-335px;"
+								data-text="s:40,40,40,60;l:40,40,40,60;ls:-2px,-2px,-2px,0px;fw:300;" data-frame_0="y:-50,-50,-50,-24;"
+								data-frame_1="st:110;sp:1000;sR:110;" data-frame_999="st:w;sp:1000;sR:5890;auto:true;"
+								style="z-index:9;font-family:'Zilla Slab';">Conoce
+							</rs-layer>
+							<!--
+
+							-->
+							<p id="slider-2-slide-3-layer-2" class="rs-layer" data-type="text" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,232px;y:m;yo:-80px,-80px,-80px,-338px;"
+								data-text="s:100,100,100,66;l:100,100,100,66;ls:-4px,-4px,-4px,-1px;fw:700;"
+								data-frame_0="x:0,0,0,0px;y:-100%;" data-frame_0_mask="u:t;x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:300;sp:1200;sR:300;"
+								data-frame_1_mask="u:t;x:0,0,0,0px;y:0,0,0,0px;" data-frame_999="st:w;sp:1000;sR:5500;auto:true;"
+								style="z-index:10;font-family:'Zilla Slab';">Etsy
+							</p>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-3-layer-3" data-type="text" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,24px;y:m;yo:57px,57px,57px,-8px;"
+								data-text="w:normal;s:40,40,40,50;l:40,40,40,50;ls:-2,-2,-2,0;fw:300;a:left,left,left,center;"
+								data-dim="w:847px,847px,847px,369px;h:163px,163px,163px,auto;"
+								data-frame_0="x:0,0,0,0px;y:-50,-50,-50,-20px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:810;sp:1000;sR:810;"
+								data-frame_999="st:w;sp:1000;sR:5190;auto:true;" style="z-index:11;font-family:'Zilla Slab';">Es un
+								mercado internacional en línea al que acuden personas de todo el mundo para hacer, vender, comprar y
+								coleccionar productos únicos.
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-3-layer-12" data-type="text" data-color="#ffe25a" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,98px;y:m;yo:228px,228px,228px,365px;"
+								data-text="s:60,60,60,64;l:50,50,50,51;" data-actions='o:click;a:jumptoslide;slide:previous;'
+								data-padding="t:5,5,5,10;" data-border="bos:solid;boc:#ffe25a;bow:2px,2px,2px,2px;"
+								data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;e:none;st:500;sp:500;sR:500;"
+								data-frame_1_sfx="se:blocktoright;fxc:#ffe25a;" data-frame_999="o:0;e:power4.inOut;st:w;sp:500;sR:6000;"
+								data-frame_999_sfx="se:blocktoright;"
+								data-frame_hover="c:#000;bgc:#ffe25a;boc:#ffe25a;bos:solid;bow:2px,2px,2px,2px;"
+								style="z-index:16;font-family:'Roboto';cursor:pointer;"><i class="pe-7s-angle-left"></i>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-3-layer-18" data-type="text" data-color="#ffe25a" data-rsp_ch="on"
+								data-xy="xo:266px,266px,266px,166px;y:m;yo:228px,228px,228px,365px;"
+								data-text="s:60,60,60,65;l:50,50,50,52;" data-actions='o:click;a:jumptoslide;slide:next;'
+								data-padding="t:5,5,5,10;" data-border="bos:solid;boc:#ffe25a;bow:2px,2px,2px,2px;"
+								data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;e:none;st:750;sp:500;sR:750;"
+								data-frame_1_sfx="se:blocktoright;fxc:#ffe25a;" data-frame_999="o:0;e:power4.inOut;st:w;sp:500;sR:5750;"
+								data-frame_999_sfx="se:blocktoright;"
+								data-frame_hover="c:#000;bgc:#ffe25a;boc:#ffe25a;bos:solid;bow:2px,2px,2px,2px;"
+								style="z-index:17;font-family:'Roboto';cursor:pointer;"><i class="pe-7s-angle-right"></i>
+							</rs-layer>
+							<!--
+-->
+						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-4" data-title="True experts" data-in="o:0;"
+							data-out="a:false;">
+							<img src="assets/transparent.png" alt="True experts" class="rev-slidebg tp-rs-img" data-bg="c:#0dcd87;"
+								data-parallax="off" data-no-retina>
+							<!--
+							-->
+							<rs-layer id="slider-2-slide-4-layer-0" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:500px,500px,500px,309px;y:m;yo:0,0,0,52px;" data-text="s:20,20,20,8;l:0,0,0,11;"
+								data-dim="w:557px,557px,557px,579px;h:557px,557px,557px,579px;" data-basealign="slide"
+								data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:9;"><img src="assets/maceta.png" alt=""
+									class="tp-rs-img" width="800" height="800" data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-1" data-type="text" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,18px;y:m;yo:-129px,-129px,-129px,-335px;"
+								data-text="s:40,40,40,53;l:40,40,40,53;ls:-2px,-2px,-2px,0px;fw:300;"
+								data-frame_0="x:0,0,0,0px;y:-50,-50,-50,-21px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:110;sp:1000;sR:110;"
+								data-frame_999="st:w;sp:1000;sR:5890;auto:true;" style="z-index:11;font-family:'Zilla Slab';">En Etsy
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-2" data-type="text" data-rsp_ch="on"
+								data-xy="xo:330px,330px,330px,215px;y:m;yo:-127px,-127px,-127px,-338px;"
+								data-text="s:48,48,48,52;l:48,48,48,52;ls:-2,-2,-2,0;fw:700;" data-frame_0="y:-100%;"
+								data-frame_0_mask="u:t;" data-frame_1="st:300;sp:1200;sR:300;" data-frame_1_mask="u:t;"
+								data-frame_999="st:w;sp:1000;sR:5500;auto:true;"
+								style="z-index:13;font-family:'Zilla Slab';text-transform:uppercase;">Vende
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-3" data-type="text" data-rsp_ch="on"
+								data-xy="xo:313px,313px,313px,10px;y:m;yo:-72px,-72px,-72px,-202px;"
+								data-text="s:40,40,40,63;l:40,40,40,63;ls:-2,-2,-2,0;fw:300;"
+								data-frame_0="x:0,0,0,0px;y:-50,-50,-50,-25px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:810;sp:1000;sR:810;"
+								data-frame_999="st:w;sp:1000;sR:5190;auto:true;" style="z-index:15;font-family:'Zilla Slab';">tus
+								artesanías de manera
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-5" data-type="text" data-color="#ffe25a" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,98px;y:m;yo:228px,228px,228px,365px;"
+								data-text="s:60,60,60,64;l:50,50,50,51;" data-actions='o:click;a:jumptoslide;slide:previous;'
+								data-padding="t:5,5,5,10;" data-border="bos:solid;boc:#ffe25a;bow:2px,2px,2px,2px;"
+								data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;e:none;st:500;sp:500;sR:500;"
+								data-frame_1_sfx="se:blocktoright;fxc:#ffe25a;" data-frame_999="o:0;e:power4.inOut;st:w;sp:500;sR:6000;"
+								data-frame_999_sfx="se:blocktoright;"
+								data-frame_hover="c:#000;bgc:#ffe25a;boc:#ffe25a;bos:solid;bow:2px,2px,2px,2px;"
+								style="z-index:16;font-family:'Roboto';cursor:pointer;"><i class="pe-7s-angle-left"></i>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-6" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:129px,129px,129px,57px;y:m;yo:-134px,-134px,-134px,-384px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;"
+								data-dim="w:249px,249px,249px,221px;h:248.981px,248.981px,248.981px,221px;" data-basealign="slide"
+								data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:8;"><img
+									src="assets/Sin-titulo-400-×-400-px-7.png" alt="" class="tp-rs-img" width="400" height="400"
+									data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-8" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:658px,658px,658px,436px;y:m;yo:211px,211px,211px,295px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;"
+								data-dim="w:127.994px,127.994px,127.994px,113px;h:128px,128px,128px,113px;" data-basealign="slide"
+								data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:10;"><img
+									src="assets/Sin-titulo-400-×-400-px-2.png" alt="" class="tp-rs-img" width="400" height="400"
+									data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-11" data-type="text" data-color="#ffe25a" data-rsp_ch="on"
+								data-xy="xo:266px,266px,266px,166px;y:m;yo:228px,228px,228px,365px;"
+								data-text="s:60,60,60,65;l:50,50,50,52;" data-actions='o:click;a:jumptoslide;slide:next;'
+								data-padding="t:5,5,5,10;" data-border="bos:solid;boc:#ffe25a;bow:2px,2px,2px,2px;"
+								data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;e:none;st:750;sp:500;sR:750;"
+								data-frame_1_sfx="se:blocktoright;fxc:#ffe25a;" data-frame_999="o:0;e:power4.inOut;st:w;sp:500;sR:5750;"
+								data-frame_999_sfx="se:blocktoright;"
+								data-frame_hover="c:#000;bgc:#ffe25a;boc:#ffe25a;bos:solid;bow:2px,2px,2px,2px;"
+								style="z-index:17;font-family:'Roboto';cursor:pointer;"><i class="pe-7s-angle-right"></i>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-13" data-type="text" data-rsp_ch="on"
+								data-xy="xo:203px,203px,203px,28px;y:m;yo:82px,82px,82px,133px;"
+								data-text="w:normal;s:40,40,40,66;l:40,40,40,66;ls:-2,-2,-2,0;fw:300;"
+								data-dim="w:963.1700000000001px,963.1700000000001px,963.1700000000001px,607px;h:117px,117px,117px,auto;"
+								data-frame_0="x:0,0,0,0px;y:-50,-50,-50,-26px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:810;sp:1000;sR:810;"
+								data-frame_999="st:w;sp:1000;sR:5190;auto:true;" style="z-index:14;font-family:'Zilla Slab';">Junto con
+								otros artesanos, pon en alto nuestra <b>cultura mexicana</b>.
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-14" data-type="text" data-rsp_ch="on"
+								data-xy="xo:470px,470px,470px,6px;y:m;yo:-19px,-19px,-19px,-124px;"
+								data-text="s:40,40,40,50;l:40,40,40,50;fw:700;" data-frame_0="y:-100%;" data-frame_0_mask="u:t;"
+								data-frame_1="st:300;sp:1200;sR:300;" data-frame_1_mask="u:t;"
+								data-frame_999="st:w;sp:1000;sR:5500;auto:true;"
+								style="z-index:12;font-family:'Zilla Slab';text-transform:uppercase;">fácil, segura y rápida.
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-15" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:363px,363px,363px,76px;y:m;yo:204px,204px,204px,299px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;"
+								data-dim="w:127.994px,127.994px,127.994px,102px;h:127px,127px,127px,102px;" data-basealign="slide"
+								data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:10;"><img
+									src="assets/Sin-titulo-400-×-400-px-3.png" alt="" class="tp-rs-img" width="400" height="400"
+									data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-4-layer-16" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:751px,751px,751px,192px;y:m;yo:208px,208px,208px,288px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;"
+								data-dim="w:127.994px,127.994px,127.994px,114px;h:127px,127px,127px,114px;" data-basealign="slide"
+								data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:10;"><img
+									src="assets/Sin-titulo-400-×-400-px-6.png" alt="" class="tp-rs-img" width="400" height="400"
+									data-no-retina>
+							</rs-layer>
+							<!--
+-->
+						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-2" data-title="The Leaders" data-in="o:0;"
+							data-out="a:false;">
+							<img src="assets/transparent.png" alt="The Leaders" class="rev-slidebg tp-rs-img" data-bg="c:#c10198;"
+								data-parallax="off" data-no-retina>
+							<!--
+							-->
+							<rs-layer id="slider-2-slide-2-layer-0" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:402px,402px,402px,234px;y:b;yo:-8px,-8px,-8px,179px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;" data-dim="w:603px,603px,603px,638px;h:603px,603px,603px,638px;"
+								data-basealign="slide" data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:10;"><img src="assets/cajas.png" alt=""
+									class="tp-rs-img" width="800" height="800" data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-1" data-type="text" data-rsp_ch="on"
+								data-xy="xo:207px,207px,207px,18px;y:m;yo:-102px,-102px,-102px,-355px;"
+								data-text="s:40,40,40,60;l:40,40,40,60;ls:-2px,-2px,-2px,0px;fw:300;"
+								data-dim="w:358px,358px,358px,185px;" data-frame_0="y:-50,-50,-50,-24;"
+								data-frame_1="st:110;sp:1000;sR:110;" data-frame_999="st:w;sp:1000;sR:5890;auto:true;"
+								style="z-index:11;font-family:'Zilla Slab';">Nuestra plataforma
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-2" data-type="text" data-rsp_ch="on"
+								data-xy="xo:202px,202px,202px,33px;y:m;yo:-44px,-44px,-44px,-268px;"
+								data-text="s:48,48,48,42;l:48,48,48,42;ls:-2,-2,-2,0;fw:700;" data-dim="w:824px,824px,824px,784px;"
+								data-frame_0="y:-100%;" data-frame_0_mask="u:t;" data-frame_1="st:300;sp:1200;sR:300;"
+								data-frame_1_mask="u:t;" data-frame_999="st:w;sp:1000;sR:5500;auto:true;"
+								style="z-index:12;font-family:'Zilla Slab';">te conecta con millones de compradores
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,56px;y:m;yo:23px,23px,23px,35px;"
+								data-text="w:normal;s:40,40,40,49;l:40,40,40,49;ls:-2px,-2px,-2px,0px;fw:300;a:left,left,left,center;"
+								data-dim="w:786.1700000000001px,786.1700000000001px,786.1700000000001px,330px;h:51px,51px,51px,auto;"
+								data-frame_0="x:0,0,0,0px;y:-50,-50,-50,-20px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:810;sp:1000;sR:810;"
+								data-frame_999="st:w;sp:1000;sR:5190;auto:true;" style="z-index:13;font-family:'Zilla Slab';">que buscan
+								una alternativa, algo especial con un toque humano, para esos momentos de la vida que merecen
+								imaginación.
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-4" data-type="text" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,105px;y:m;yo:93px,93px,93px,47px;"
+								data-text="w:normal;s:40,40,40,60;l:40,40,40,60;ls:-2px,-2px,-2px,0px;fw:300;"
+								data-dim="w:786.1700000000001px,786.1700000000001px,786.1700000000001px,408px;h:62px,62px,62px,32px;"
+								data-frame_0="y:-50,-50,-50,-24;" data-frame_1="st:810;sp:1000;sR:810;"
+								data-frame_999="st:w;sp:1000;sR:5190;auto:true;" style="z-index:13;font-family:'Zilla Slab';">
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-17" class="rs-pxl-14" data-type="image" data-rsp_ch="on"
+								data-xy="x:c;xo:-42px,-42px,-42px,226px;y:b;yo:313px,313px,313px,794px;"
+								data-text="s:20,20,20,8;l:0,0,0,11;" data-dim="w:249px,249px,249px,278px;h:249px,249px,249px,278px;"
+								data-basealign="slide" data-frame_0="x:right;" data-frame_1="st:500;sp:1000;sR:500;"
+								data-frame_999="x:left;o:0;st:w;sp:1000;sR:5500;" style="z-index:5;"><img
+									src="assets/Sin-titulo-400-×-400-px.png" alt="" class="tp-rs-img" width="400" height="400"
+									data-no-retina>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-20" data-type="text" data-color="#ffe25a" data-rsp_ch="on"
+								data-xy="xo:205px,205px,205px,98px;y:m;yo:228px,228px,228px,365px;"
+								data-text="s:60,60,60,64;l:50,50,50,51;" data-actions='o:click;a:jumptoslide;slide:previous;'
+								data-padding="t:5,5,5,10;" data-border="bos:solid;boc:#ffe25a;bow:2px,2px,2px,2px;"
+								data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;e:none;st:500;sp:500;sR:500;"
+								data-frame_1_sfx="se:blocktoright;fxc:#ffe25a;" data-frame_999="o:0;e:power4.inOut;st:w;sp:500;sR:6000;"
+								data-frame_999_sfx="se:blocktoright;"
+								data-frame_hover="c:#000;bgc:#ffe25a;boc:#ffe25a;bos:solid;bow:2px,2px,2px,2px;"
+								style="z-index:16;font-family:'Roboto';cursor:pointer;"><i class="pe-7s-angle-left"></i>
+							</rs-layer>
+							<!--
+
+							-->
+							<rs-layer id="slider-2-slide-2-layer-21" data-type="text" data-color="#ffe25a" data-rsp_ch="on"
+								data-xy="xo:266px,266px,266px,166px;y:m;yo:228px,228px,228px,365px;"
+								data-text="s:60,60,60,65;l:50,50,50,52;" data-actions='o:click;a:jumptoslide;slide:next;'
+								data-padding="t:5,5,5,10;" data-border="bos:solid;boc:#ffe25a;bow:2px,2px,2px,2px;"
+								data-frame_0="x:0,0,0,0px;y:0,0,0,0px;"
+								data-frame_1="x:0,0,0,0px;y:0,0,0,0px;e:none;st:750;sp:500;sR:750;"
+								data-frame_1_sfx="se:blocktoright;fxc:#ffe25a;" data-frame_999="o:0;e:power4.inOut;st:w;sp:500;sR:5750;"
+								data-frame_999_sfx="se:blocktoright;"
+								data-frame_hover="c:#000;bgc:#ffe25a;boc:#ffe25a;bos:solid;bow:2px,2px,2px,2px;"
+								style="z-index:17;font-family:'Roboto';cursor:pointer;"><i class="pe-7s-angle-right"></i>
+							</rs-layer>
+							<!--
+-->
+						</rs-slide>
+					</rs-slides>
+					<rs-static-layers>
+						<!--
+
+							-->
+						<rs-layer id="slider-2-slide-2-layer-7" class="rs-layer-static" data-type="shape" data-rsp_ch="on"
+							data-xy="x:c;xo:-235px,-235px,-235px,-226px;y:b;" data-text="s:20,20,20,8;l:0,0,0,11;"
+							data-dim="w:430px,430px,430px,500px;h:85px,85px,85px,43px;" data-basealign="slide" data-onslides="s:1;"
+							data-frame_0="y:bottom;" data-frame_1="sp:1000;" data-frame_999="o:0;st:w;sR:3500;"
+							style="z-index:8;background-color:#ffe25a;">
+						</rs-layer>
+						<!--
+
+							--><span id="slider-2-slide-2-layer-9" class="rs-layer rs-layer-static" data-type="text" data-color="#6f3dff"
+							data-rsp_ch="on" data-xy="x:c;xo:-232px,-232px,-232px,-159px;y:b;yo:43px,43px,43px,-7px;"
+							data-text="s:27,27,27,20;l:27,27,27,50;ls:-1px,-1px,-1px,0px;fw:700;"
+							data-dim="w:345.375px,345.375px,345.375px,300px;"
+							data-actions='o:mouseenter;a:gotoframe;layer:slider-2-slide-2-layer-10;f:frame_2;||o:mouseleave;a:gotoframe;layer:slider-2-slide-2-layer-10;f:frame_3;||o:click;a:scrollbelow;sp:1000ms;e:power1.inOut;'
+							data-basealign="slide" data-onslides="s:1;" data-frame_0="y:-100%;" data-frame_0_mask="u:t;"
+							data-frame_1="st:500;sp:1200;sR:500;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:2800;"
+							data-frame_hover="c:#3e3850;" style="z-index:9;font-family:'Zilla Slab';cursor:pointer;">Quiero formar
+							parte de Etsy &nbsp<i class="fa-heart"></i>
+						</span>
+						<!--
+
+							-->
+						<rs-layer id="slider-2-slide-2-layer-10" class="rs-layer-static" data-type="shape" data-rsp_ch="on"
+							data-xy="x:c;xo:-320px,-320px,-320px,-388px;y:b;yo:25px,25px,25px,11px;"
+							data-text="s:20,20,20,8;l:0,0,0,11;" data-dim="w:160px,160px,160px,82px;h:5px,5px,5px,8px;"
+							data-basealign="slide" data-onslides="s:1;" data-ford="frame_0;frame_1;frame_2;frame_3;frame_999;"
+							data-frame_0="x:-100%;o:1;" data-frame_0_mask="u:t;" data-frame_1="st:1000;sp:1000;sR:1000;"
+							data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:20;"
+							data-frame_2="oX:50%;oY:50%;oZ:0;tp:600px;st:3640;sR:1640;bgc:#3e3850;"
+							data-frame_3="oX:50%;oY:50%;oZ:0;tp:600px;st:4180;sR:240;bgc:#6f3dff;"
+							style="z-index:10;background-color:#6f3dff;">
+						</rs-layer>
+						<!--
+					-->
+					</rs-static-layers>
+				</rs-module>
+				<script>
+
+				</script>
+				<script>
+					if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+			<script>
+				var tpj = jQuery;
+				if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+				if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+				RS_MODULES.modules["home"] = {
+					once: RS_MODULES.modules["home"] !== undefined ? RS_MODULES.modules["home"].once : undefined, init: function () {
+						window.revapi2 = window.revapi2 === undefined || window.revapi2 === null || window.revapi2.length === 0 ? document.getElementById("home") : window.revapi2;
+						if (window.revapi2 === null || window.revapi2 === undefined || window.revapi2.length == 0) { window.revapi2initTry = window.revapi2initTry === undefined ? 0 : window.revapi2initTry + 1; if (window.revapi2initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["home"].init() }); return; }
+						window.revapi2 = jQuery(window.revapi2);
+						if (window.revapi2.revolution == undefined) { revslider_showDoubleJqueryError("home"); return; }
+						revapi2.revolutionInit({
+							revapi: "revapi2",
+							DPR: "dpr",
+							duration: "4500ms",
+							visibilityLevels: "1240,1240,1240,480",
+							gridwidth: "1920,1920,1920,1000",
+							gridheight: "600,600,600,1100",
+							spinner: "spinner13",
+							perspective: 600,
+							perspectiveType: "local",
+							editorheight: "600,768,960,1100",
+							responsiveLevels: "1240,1240,1240,480",
+							progressBar: { disableProgressBar: true },
+							navigation: {
+								onHoverStop: false
+							},
+							parallax: {
+								levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 30],
+								type: "scroll",
+								origo: "slideCenter",
+								speed: 0
+							},
+							viewPort: {
+								global: false,
+								globalDist: "-200px",
+								enable: false
+							},
+							fallbacks: {
+								allowHTML5AutoPlayOnAndroid: true
+							},
+						});
+
+					}
+				} // End of RevInitScript
+				if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+			</script>
+		</div>
+
+		<!-- Pasos -->
+		<div id="pasos" class="py-5"
+			style="background: rgb(255,255,255); background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%);">
+			<section class="container pt-3">
+				<hr class="featurette-divider">
+				<br>
+				<div class="row">
+					<h3 class="text-center" style="color: #f1641e;">Etsy</h3>
+					<h6 class="lead text-center">Vende tus artesanías de forma <b>fácil, segura y rápida</b></h6>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3 text-center">
+						<img width="125rem" src="assets/ilustraciones/publica2.png" alt="Envia tu producto">
+
+						<h4>Publica</h4>
+						<p class="lead">tus productos desde la comodidad de tu hogar o negocio.</p>
+						<!-- <p><a class="btn btn-secondary" >View details &raquo;</a></p> -->
+					</div><!-- /.col-lg-3 text-center -->
+					<div class="col-lg-3 text-center">
+						<img width="125rem" src="assets/ilustraciones/carrito.png" alt="Envia tu producto">
+
+						<h4>Vende</h4>
+						<p class="lead">tus artesanías a un precio justo.</p>
+						<!-- <p><a class="btn btn-secondary" >View details &raquo;</a></p> -->
+					</div><!-- /.col-lg-3 text-center -->
+					<div class="col-lg-3 text-center">
+						<img width="125rem" src="assets/ilustraciones/enviocaja.png" alt="Envia tu producto">
+
+						<h4>Envía</h4>
+						<p class="lead">a cualquier parte del mundo y pon en alto la cultura mexicana.</p>
+						<!-- <p><a class="btn btn-secondary" >View details &raquo;</a></p> -->
+					</div><!-- /.col-lg-3 text-center -->
+					<div class="col-lg-3 text-center">
+						<img width="125rem" src="assets/ilustraciones/dinerorecibe.png" alt="Recibe tu dinero">
+
+						<h4>Recibe tu dinero</h4>
+						<p class="lead">a través de una amplia gama de formas de pago.</p>
+						<!-- <p><a class="btn btn-secondary" >View details &raquo;</a></p> -->
+					</div><!-- /.col-lg-3 text-center -->
+					<a class="btn btn-primary">Registrarme</a>
+
+				</div><!-- /.row -->
+
+				<!-- START THE FEATURETTES -->
+
+				<hr id="section-2" class="featurette-divider">
+			</section>
+		</div>
+
+		<!-- Artesanos -->
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-1"></div>
+				<div class="col-10">
+					<h1>Artesanos</h1>
+					<p class="lead">En Etsy puedes ser reconocido mundialmente; entre más ventas hagas llegarás a más rincones del
+						mundo. Tu trabajo es muy valioso para preservar la cultura mexicana,
+						siéntete orgulloso de formar parte de esta comunidad de artesanos. Te contamos algunas historias de éxito.
+					</p>
+				</div>
+				<div class="col-1"></div>
+			</div>
+			<br><br>
+			<div class="row featurette ">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading  my-4">Guillermina Gutierrez <span class="text-muted"> Tejedora</span></h2>
+					<p class="lead">Vive en el estado de Oaxaca ella forma parte de una familia que desde hace años se ha dedicado
+						a la elaboración de prendas hechas 100% en telar.</p>
+					<p class="lead">Gracias a su pasión ha logrado mantener a su familia con este noble oficio, con la plataforma
+						Etsy a realizado ventas nacionales e internacionales.</p>
+					<p class="lead">Mujeres como Guillermina logran mantener la historia de la cultura mexicana a través de hilos,
+						formas, colores y amor, ella ha logrado enaltecer el arte mexicano.</p>
+				</div>
+				<div class="col-md-5 order-md-1"><img style="border-radius: 5px;" width="100%" src="assets/fotos/artesania3.png"
+						alt="Artesanía 3"></div>
+			</div>
+			<br>
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading my-4">Arte Wixarika <span class="text-muted">Chaquira</span></h2>
+					<p class="lead">En Etsy podemos encontrar varias personas de la comunidad wixarika las cuales ponen en venta
+						sus productos; que además de ser muy hermosas son inspiradas
+						de su propia cosmovisión.
+					</p>
+					<p class="lead">Internacionalmente la cultura wixarika ha llamado la atención y ha formado parte de muchas
+						exposiciones culturales. Recuerda que no son
+						simples productos, son objetos llenos de símbolos, significado y una gran energía espiritual.</p>
+				</div>
+				<div class="col-md-5">
+					<img style="border-radius: 5px;" width="100%" src="assets/fotos/artesania1.png" alt="Artesanía 1">
+
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading  my-4">Francisco Gomez <span class="text-muted">Alfarero.</span></h2>
+					<p class="lead">La alfarería data de los inicios de la humanidad, la mayoría de las sociedades tradicionales
+						del mundo la han utilizado.</p>
+
+					<p class="lead">Don Francisco tiene el conocimiento del arte de manejar los 4 elementos tierra, agua, aire y
+						fuego. Con gran paciencia elabora artesanías
+						usando diferentes técnicas como el vidreado, barro negro, rakú, barro canelo, barro bruñido, entre otras.</p>
+
+					<p class="lead"> Gracias a Etsy Francisco ha podido enviar sus productos a manos de todos aquellos conocedores
+						de este gran trabajo. También ha podido conocer las técnicas de otros artesanos que residen
+						en otras partes del mundo. </p>
+
+					<p class="lead">Nos llenamos de orgullo que más personas como Francisco puedan ser reconocidos mundialmente.</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img style="border-radius: 5px;" width="100%" src="assets/fotos/artesania2.png" alt="Artesanía 2">
+
+				</div>
+			</div>
+
+			<hr id="galeria-artesanias" class="featurette-divider">
+		</div>
+
+		<!-- Gallery Masonry -->
+		<div class="container mt-5">
+			<h1 class="text-center m-3">Compra Artesanías</h1>
+
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Escribe aquí" aria-describedby="basic-addon2">
+				<div class="input-group-append">
+					<span class="input-group-text" id="basic-addon2">Buscar</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6 text-center">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<label class="input-group-text">Tipo artesanía</label>
+						</div>
+						 <select class="form-select" aria-label="Default select example">
+							<option selected>Selecciona un tipo de artesanía</option>
+							<option>Barro</option>
+							<option>Ceramica</option>
+							<option>Telar</option>
+							<option>Madera</option>
+							<option>Papel</option>
+							<option>Vidreo</option>
+							<option>Metal</option>
+							<option>Joyeria</option>
+							<option>Fibras</option>
+							<option>Cuero</option>
+							<option>Piedra</option>
+							<option>Chaquira</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 text-center">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<label class="input-group-text">Estado</label>
+						</div>
+						<select class="form-select" aria-label="Default select example">
+							<option selected>Selecciona un estado de origen</option>
+							<option>Aguascalientes</option>
+							<option>Baja California</option>
+							<option>Baja California Sur</option>
+							<option>Campeche</option>
+							<option>Chiapas</option>
+							<option>Chihuahua</option>
+							<option>Coahuila</option>
+							<option>Ciudad de México</option>
+							<option>Colima</option>
+							<option>Durango</option>
+							<option>Estado de México</option>
+                            <option>Guanajuato</option>
+                            <option>Guerrero</option>
+                            <option>Hidalgo</option>
+                            <option>Jalisco</option>
+                            <option>Michoacán</option>
+                            <option>Morelos</option>
+                            <option>Nayarin</option>
+                            <option>Nuevo León</option>
+                            <option>Oaxaca</option>
+                            <option>Puebla</option>
+                            <option>Queretaro</option>
+                            <option>Quintana Roo</option>
+                            <option>San Luis Potosí</option>
+                            <option>Sinaloa</option>
+                            <option>Sonora</option>
+                            <option>Tabasco</option>
+                            <option>Tamaulipas</option>
+                            <option>Tlaxcala</option>
+                            <option>Veracruz</option>
+                            <option>Yucatán</option>
+                            <option>Zacatecas</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="grid-sizer"></div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/bolsas.jpg">
+						<img src="assets/fotos/productos/bolsas.jpg" />
+					</a>
+
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Bolsas de palma</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Veracruz
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$400.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/telas2.jpg">
+						<img src="assets/fotos/productos/telas2.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Hamaca</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Colima
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$300.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/ceramica.jpg">
+						<img src="assets/fotos/productos/ceramica.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Adornos Ceramica</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Jalisco
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$100.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/colibri.jpg">
+						<img src="assets/fotos/productos/colibri.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Figuras de madera</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Nayarit
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$500.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/collar.jpg">
+						<img src="assets/fotos/productos/collar.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Collar Madera</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Guerrero
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$150.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/alebrije.jpg">
+						<img src="assets/fotos/productos/alebrije.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Alebrije</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							CDMX
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$250.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/bolsas2.jpg">
+						<img src="assets/fotos/productos/bolsas2.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Bolsas de tela</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Oaxaca
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$350.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/mascara.jpg">
+						<img src="assets/fotos/productos/mascara.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Mascara de madera</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Quintana Roo
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$800.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+				<div class="grid-item">
+					<a data-fancybox="gallery" data-src="assets/fotos/productos/tela.jpg">
+						<img src="assets/fotos/productos/tela.jpg" />
+					</a>
+					<hr>
+					<div class="row">
+						<div class="col-12 text-center">
+							<h5>Rebosos</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6 text-center">
+							Chiapas
+						</div>
+						<div class="col-12 col-md-6 text-center"><b>$350.00 MXN</b></div>
+					</div>
+					<div class="row m-1"><button type="button" class="btn btn-primary btn-block">Comprar</button></div>
+				</div>
+			</div>
+			<hr class="featurette-divider">
+		</div>
+
+		<!-- Descubre México (texto) -->
+		<div id="descubre-mexico" class="container mt-5 mb-4 text-center">
+			<h1>Descubre México</h1>
+			<p class="lead text-center">En <b style="color: #f1641e;">Etsy</b> puedes descubrir las artesanías típicas en cada estado de México; 
+               conocerás las tradiciones y cultura de cada región, así como el proceso que conlleva la relación de tu artesanía, siempre elaborada con calidad y amor.</p>
+		</div>
+
+		<!-- Descubre México (contenido) -->
+		<div class="container descubremexico card-group">
+			<div class="card">
+				<img src="assets/fotos/estados/aguascalientes.png" class="card-img-top" alt="etsy_aguascalientes">
+				<div class="card-body">
+					<h5 class="card-title">Aguascalientes</h5>
+					<p class="card-text"> Destaca la cerámica mayólica, cartonería plana, máscaras y piezas elaboradas con lana,
+						figuras talladas en madera y sarapes.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/bajacalifornia.png" class="card-img-top" alt="etsy_bajacalifornia">
+				<div class="card-body">
+					<h5 class="card-title">Baja California</h5>
+					<p class="card-text">Artesanía con fibras naturales del pueblo kumiai de San José de la Zorra, Baja
+						California.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/bajacaliforniasur.png" class="card-img-top" alt="etsy_bajacaliforniasur">
+				<div class="card-body">
+					<h5 class="card-title">Baja California sur</h5>
+					<p class="card-text">portafolios, monederos, cinturones, bolsas de cuero, trabajos de
+						repujado. cestos y canastos de torote.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/campeche.png" class="card-img-top" alt="campeche">
+				<div class="card-body">
+					<h5 class="card-title">Campeche</h5>
+					<p class="card-text">Textiles bordados a mano, a máquina, traje de campechana, sombreros de jipijapa, bajuco,
+						urdido de amaca, piezas de madera tallada.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/chiapas.png" class="card-img-top" alt="chiapas">
+				<div class="card-body">
+					<h5 class="card-title">Chiapas</h5>
+					<p class="card-text">Figuras de madera, jicalpextles, piezas hechas de frutos vacíos, joyería, alfarería, ropa
+						de manta, caites</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/chihuahua.png" class="card-img-top" alt="chihuahua">
+				<div class="card-body">
+					<h5 class="card-title">Chihuahua</h5>
+					<p class="card-text">Figuras de madera, máscaras de madera cestería de carrizo sarapes de lana, cerámica, alfarería</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/coahuila.png" class="card-img-top" alt="coahuila">
+				<div class="card-body">
+					<h5 class="card-title">Coahuila</h5>
+					<p class="card-text">Muebles de madera y palma, herrería, cajitas talladas, sarapes de lana.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/cdmx.png" class="card-img-top" alt="cdmx">
+				<div class="card-body">
+					<h5 class="card-title">Ciudad de México</h5>
+					<p class="card-text">Joyería, productos de cuero, alebrijes, flores de papel, calaveras y animales de cartón,
+						muñecas de trapo</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/colima.png" class="card-img-top" alt="colima">
+				<div class="card-body">
+					<h5 class="card-title">Colima</h5>
+					<p class="card-text">Equipales, artesanías de hierro, productos de cuero.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/durango.png" class="card-img-top" alt="durango">
+				<div class="card-body">
+					<h5 class="card-title">Durango</h5>
+					<p class="card-text">Escobetas para peinarse, morrales de ixtle con diseños geométricos y vivos colores, sombreros de palma.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/estadomexico.png" class="card-img-top" alt="estadomexico">
+				<div class="card-body">
+					<h5 class="card-title">Estado de México</h5>
+					<p class="card-text">Canastas de palma policromadas. Icpalli, joyería, artesanía de barro, sarapes, ropa de
+						manta, arboles de la vida.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/guanajuato.png" class="card-img-top" alt="guanajuato">
+				<div class="card-body">
+					<h5 class="card-title">Guanajuato</h5>
+					<p class="card-text">Hojalata, artesanía de barro, sarapes, productos de cuero, máscaras de cartón.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/guerrero.png" class="card-img-top" alt="guerrero">
+				<div class="card-body">
+					<h5 class="card-title">Guerrero</h5>
+					<p class="card-text">Jícaras, arcones, cajas, bolsas, esteras y topiantes de tripilla de palma, joyería,
+						alfarería, sarapes, huaraches de palma.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/hidalgo.png" class="card-img-top" alt="hidalgo">
+				<div class="card-body">
+					<h5 class="card-title">Hidalgo</h5>
+					<p class="card-text">Canastas con tapa tejidas de carrizo.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/jalisco.png" class="card-img-top" alt="jalisco">
+				<div class="card-body">
+					<h5 class="card-title">Jalisco</h5>
+					<p class="card-text">Equipales, muebles, orfebrería, cobre laminado, Hojalata, alfarería, sarapes, ropa de
+						manta, productos de cuero, papel mache.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/michoacan.png" class="card-img-top" alt="michoacan">
+				<div class="card-body">
+					<h5 class="card-title">Michoacán</h5>
+					<p class="card-text">Equipales, bateas, jícaras, , piezas de madera, figuras de madera, petates, esteras de
+						tule, joyería donas, joyería oro Huentamo, artesanías de cobre, Hojalata, alfarería, sarapes, ropa de manta.
+					</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/Morelos.png" class="card-img-top" alt="morelos">
+				<div class="card-body">
+					<h5 class="card-title">Morelos</h5>
+					<p class="card-text">Huaraches tejidos con ixtle, Sarapes de lana, máscaras talladas, maracas de guajes.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/nayarit.png" class="card-img-top" alt="nayarit">
+				<div class="card-body">
+					<h5 class="card-title">Nayarit</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's content.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/nuevoleon.png" class="card-img-top" alt="nuevoleon">
+				<div class="card-body">
+					<h5 class="card-title">Nuevo León</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's content.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/oaxaca.png" class="card-img-top" alt="oaxaca">
+				<div class="card-body">
+					<h5 class="card-title">Oaxaca</h5>
+					<p class="card-text">Figuras de madera, joyería, artesanías de hierro, artesanía de barro, sarapes rojos y
+						negros, ropa de manta, huaraches de palma, velas, alebrijes, papel mache, muñecas de trapo.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/puebla.png" class="card-img-top" alt="puebla">
+				<div class="card-body">
+					<h5 class="card-title">Puebla</h5>
+					<p class="card-text">muebles, sombreros de palma, vidrio soplado, orfebrería, artesanías de hierro, Hojalata,
+						alfarería, huaraches, papel mache.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/queretaro.png" class="card-img-top" alt="queretaro">
+				<div class="card-body">
+					<h5 class="card-title">Queretaro</h5>
+					<p class="card-text">Cestería, canastas y artículos de fibra. artesanías de hierro, muñeca otomi.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/quintanaroo.png" class="card-img-top" alt="quintanaroo">
+				<div class="card-body">
+					<h5 class="card-title">Quintana Roo</h5>
+					<p class="card-text">Joyería de oro, plata y coral negro, concha.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/sanluispotosi.png" class="card-img-top" alt="sanluispotosi">
+				<div class="card-body">
+					<h5 class="card-title">San Luis Potosí</h5>
+					<p class="card-text">Petates y sopladores, metates y y molcajetes de piedra, quechquemitl bordados en lana o algodón, rebozos de seda.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/sinaloa.png" class="card-img-top" alt="sinaloa">
+				<div class="card-body">
+					<h5 class="card-title">Sinaloa</h5>
+					<p class="card-text">Sombreros de soyate, morrales de ixtle, alforjas tejidas, artículos de piel, coronas de papel, tallas en concha nácar.
+</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/sonora.png" class="card-img-top" alt="sonora">
+				<div class="card-body">
+					<h5 class="card-title">Sonora</h5>
+					<p class="card-text">Sarapes de lana, tejidos en telar de pie, cestería de sotol y palma, muñecas de madera y algodón, sarapes y ceñidores en telar de troncos.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/tabasco.png" class="card-img-top" alt="tabasco">
+				<div class="card-body">
+					<h5 class="card-title">Tabasco</h5>
+					<p class="card-text">Artículos de piel, instrumentos musicales, abanicos de palma, flores y coronas de papel, hamacas de henequén.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/taumalipas.png" class="card-img-top" alt="taumalipas">
+				<div class="card-body">
+					<h5 class="card-title">Tamaulipas</h5>
+					<p class="card-text">Talabartería, vidrio soplado, miniatura de bagazo de caña.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/tlaxcala.png" class="card-img-top" alt="tlaxcala">
+				<div class="card-body">
+					<h5 class="card-title">Tlaxcala</h5>
+					<p class="card-text">Bastones, santos de madera.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/veracruz.png" class="card-img-top" alt="veracruz">
+				<div class="card-body">
+					<h5 class="card-title">Veracruz</h5>
+					<p class="card-text">Sombreros de palma, vestidos jarochos. cestería con estambres de colores.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/yucatan.png" class="card-img-top" alt="yucatan">
+				<div class="card-body">
+					<h5 class="card-title">Yucatán</h5>
+					<p class="card-text">Sombreros jipijapa, bolsas y carteras de henequén, joyería, alfarería, alpargatas, papel
+						mache</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="assets/fotos/estados/zacatecas.png" class="card-img-top" alt="zacatecas">
+				<div class="card-body">
+					<h5 class="card-title">Zacatecas</h5>
+					<p class="card-text">Artesanías de hierro, alfarería, sarapes.</p>
+					<div class="btnartesania">
+						<a class="btn btn-outline-primary">Ver artesanías</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<footer class="mt-5" style="background-color: #faecd1;">
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-12 my-3 text-center">
+						<h3><b>¿Qué es Etsy?</b></h3>
+						<p>Lee nuestra maravillosamente excepcional historia</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-md-4 text-center">
+						<h4 style="color: #f1641e;"><b>Una comunidad que hace el bien</b></h4>
+						<p>Etsy es un mercado internacional en línea al que acuden personas de todo el mundo para hacer, vender,
+							comprar y coleccionar productos únicos. También somos una comunidad que impulsa cambios positivos para los
+							pequeños negocios, las personas y el planeta. Estas son algunas de las formas en las que, juntos, creamos
+							un efecto positivo.</p>
+					</div>
+					<div class="col-12 col-md-4 text-center">
+						<h4 style="color: #f1641e;"><b>Apoya a creadores independientes</b></h4>
+						<p>Etsy no tiene almacenes, solo millones de personas vendiendo productos que adoran. Nosotros facilitamos
+							todo el proceso y te ayudamos a conectar directamente con creadores para que encuentres productos
+							extraordinarios.</p>
+					</div>
+					<div class="col-12 col-md-4 text-center">
+						<h4 style="color: #f1641e;"><b>Tranquilidad absoluta</b></h4>
+						<p>Tu privacidad es la principal prioridad de nuestro equipo dedicado. Lo tenemos todo dispuesto para entrar
+							en acción si necesitas ayuda.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 text-center">
+						<h5>¿Alguna pregunta? Encuentra aquí las respuestas a tus preguntas.</h5>
+						<a href="https://www.etsy.com/help?ref=hp_what_is_etsy_help_center">Centro de ayuda</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<!-- <div class="col-6 text-center"></div> -->
+					<div class="text-center mt-4 col-12">
+						<!-- <h6><b style="color: #f1641e;">Búscanos</b> en</h6> -->
+						<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white"
+							stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							class="fb-icon feather feather-facebook">
+							<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white"
+							stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							class="tw-icon feather feather-twitter">
+							<path
+								d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+							</path>
+						</svg>
+					</div>
+				</div>
+				<hr>
+
+				<div class="text-center">
+					<span>
+						&copy; Copy Right 2022 - <b style="color: #f1641e;"><a href="https://www.etsy.com/">Etsy</a></b>
+					</span>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Calculadora -->
+		<div>
+			<button id="boton-calcula-ganancia-id" type="button" class="btn btn-primary calculator-btn"
+				data-bs-toggle="tooltip" data-bs-placement="left" title="Calcula tu ganancia de ventas">
+				Calcula tus ganancias
+			</button>
+
+			<div class="card calculator" id="card-calcula-ganancia-id">
+				<div class="card-header">
+					<div class="row">
+						<div class="col-11">
+							Obten ganancias desde la comodidad de tu hogar o negocio con ayuda de <b style="color: #f1641e;">Etsy</b>
+						</div>
+						<div class="col-1 text-right text-danger" id="cerrar-card-calcula-ganancia-id">x</div>
+					</div>
+
+				</div>
+				<div class="card-body">
+					<form class="row g-3">
+						<div class="col-6"></div>
+						<div class="col-6">
+							<input id="calcular-ganancias-input" type="number" class="form-control" size="large" min="1"
+								placeholder="Ingrese el precio de su artículo">
+						</div>
+					</form>
+
+					<h5 class="card-title">Desglose de tarifas</h5>
+					<div class="row">
+						<div class="col-6">
+							<small class="card-text m-0">Tarifa por publicación (0.20 USD por anuncio):</small><br>
+						</div>
+						<div id="resultado-costo-anuncio" class="col-6 text-center">-</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<small class="card-text m-0">Tarifa por transacción (6.5% por transacción):</small><br>
+						</div>
+						<div id="resultado-costo-transaccion" class="col-6 text-center">-</div>
+					</div>
+
+					<hr>
+
+					<h5 id="resultado-calculadora" class="card-title text-center">-</h5>
+				</div>
+				<div class="card-footer text-muted text-center">
+					<small>Algunas de estas tarifas pueden <b style="color: #f1641e;">variar</b> dependiendo de tu moneda
+						local.</small>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+	<!-- Calculadora JS -->
+	<script src="js/calculadora.js"></script>
+	<!-- Navbar JS -->
+	<script src="js/navbar.js"></script>
+
+	<script>
+		$(function () {
+			const $grid = $('.grid').masonry({
+				itemSelector: '.grid-item',
+				percentPosition: true,
+				columnWidth: '.grid-sizer'
+			});
+
+			// layout Masonry after each image loads
+			$grid.imagesLoaded().progress(function () {
+				$grid.masonry();
+			});
+
+			$('.descubremexico').slick({
+				autoplay: true,
+				dots: true,
+				arrows: true,
+				infinite: true,
+				slidesToShow: 5, slidesToScroll: 3,
+				autoplay: true, autoplaySpeed: 2000,
+				arrows: false,
+				responsive: [
+					{
+						breakpoint: 1300,
+						settings: { slidesToShow: 5, slidesToScroll: 5 }
+					},
+					{
+						breakpoint: 1200,
+						settings: { slidesToShow: 4, slidesToScroll: 4 }
+					},
+					{
+						breakpoint: 990,
+						settings: { slidesToShow: 3, slidesToScroll: 3 }
+					},
+					{
+						breakpoint: 760,
+						settings: { slidesToShow: 2, slidesToScroll: 2 }
+					},
+					{
+						breakpoint: 520,
+						settings: { slidesToShow: 1, slidesToScroll: 1 }
+					}
+				]
+			});
+		});
+	</script>
+</body>
+
+
+</html>

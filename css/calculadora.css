@@ -1,0 +1,42 @@
+#card-calcula-ganancia-id {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  display: none;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  z-index: 100;
+}
+
+#boton-calcula-ganancia-id {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  /* border-bottom-left-radius: 0px; */
+  display: none;
+  padding: 20px;
+  background: #f1641e;
+  right: 0;
+  bottom: 10px;
+  position: fixed;
+  opacity: 80%;
+  color: white !important;
+  z-index: 100;
+}
+
+#boton-calcula-ganancia-id:hover {
+  opacity: 100%;
+}
+
+#cerrar-card-calcula-ganancia-id {
+  cursor: pointer;
+  font-weight: bold;
+  size: 15px;
+}
+
+#cerrar-card-calcula-ganancia-id:hover {
+  text-decoration: underline;
+}
